@@ -3,3 +3,13 @@
 ################################################################################
 
 /.vs
+/ChattingInterfaces/bin/Debug
+/ChattingInterfaces/obj/Debug
+/ChattingInterfaces/obj/Release
+/ChattingInterfaces/Properties
+/ChattingInterfaces
+/ChattingServer/bin/Debug
+/ChattingServer/obj
+/ChattingUI/obj/Debug
+/ChattingUI/obj/Release
+/ChattingUI/bin/Debug
