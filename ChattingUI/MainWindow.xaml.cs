@@ -1,6 +1,8 @@
-﻿using System;
+﻿using ChattingInterfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -20,9 +22,13 @@ namespace ChattingUI
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static IChattingService Server;
+        private static DuplexChannelFactory<IChattingService> duplexChannelFactory;
         public MainWindow()
         {
             InitializeComponent();
+            duplexChannelFactory = new DuplexChannelFactory<IChattingService>(new UserCallback(), "ChatServiceEndPoint");
+            Server = duplexChannelFactory.CreateChannel();
         }
     }
 }

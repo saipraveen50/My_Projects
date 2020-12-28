@@ -5,12 +5,29 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Collections.Concurrent;
 
 namespace ChattingServer
 {
+    /// <summary>
+    /// Class for login and logout operations
+    /// </summary>
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.Single)]
     public class ChattingService : IChattingService
     {
-        
+        /// <summary>
+        /// to hold the logged in users
+        /// </summary>
+        public ConcurrentDictionary<string, ConnectedUser> connectedUsers = new ConcurrentDictionary<string, ConnectedUser>();
+
+        public int Login(string userName)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Logout()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
