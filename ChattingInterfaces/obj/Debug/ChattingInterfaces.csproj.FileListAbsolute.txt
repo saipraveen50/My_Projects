@@ -1,0 +1,11 @@
+C:\Users\sweety\source\repos\MessagingApp\ChattingInterfaces\bin\Debug\ChattingInterfaces.dll
+C:\Users\sweety\source\repos\MessagingApp\ChattingInterfaces\bin\Debug\ChattingInterfaces.pdb
+C:\Users\sweety\source\repos\MessagingApp\ChattingInterfaces\obj\Debug\ChattingInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\sweety\source\repos\MessagingApp\ChattingInterfaces\obj\Debug\ChattingInterfaces.dll
+C:\Users\sweety\source\repos\MessagingApp\ChattingInterfaces\obj\Debug\ChattingInterfaces.pdb
+C:\Users\sweety\source\repos\saipraveen50\My_Projects\ChattingInterfaces\bin\Debug\ChattingInterfaces.dll
+C:\Users\sweety\source\repos\saipraveen50\My_Projects\ChattingInterfaces\bin\Debug\ChattingInterfaces.pdb
+C:\Users\sweety\source\repos\saipraveen50\My_Projects\ChattingInterfaces\obj\Debug\ChattingInterfaces.csprojAssemblyReference.cache
+C:\Users\sweety\source\repos\saipraveen50\My_Projects\ChattingInterfaces\obj\Debug\ChattingInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\sweety\source\repos\saipraveen50\My_Projects\ChattingInterfaces\obj\Debug\ChattingInterfaces.dll
+C:\Users\sweety\source\repos\saipraveen50\My_Projects\ChattingInterfaces\obj\Debug\ChattingInterfaces.pdb
