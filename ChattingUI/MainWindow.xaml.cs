@@ -27,6 +27,9 @@ namespace ChattingUI
 =======
             duplexChannelFactory = new DuplexChannelFactory<IChattingService>(new UserCallback(), "ChatServiceEndPoint");
             Server = duplexChannelFactory.CreateChannel();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
     }
