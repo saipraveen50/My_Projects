@@ -5,8 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChattingUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="460" Width="800">
+    <Border Padding="20">
+        <StackPanel>
+            <!--#region grid for log in butoon, name textbox and label-->
+            <Grid Margin="0 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" x:Name="txtUserName"/>
+                <Button Grid.Column="1" x:Name="btnLogIn" Content="Log In" HorizontalAlignment="Center" Width="80" Height="20" Margin="54,0" VerticalAlignment="Bottom" Click="BtnLogIn_Click"/>
+                <Label Grid.Column="2" x:Name="lblWelcome"/>
+            </Grid>
+            <!--#endregion-->
+            <!--#region grid for listbox and textbox-->
+            <Grid Margin="0 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <ListBox Grid.Column="0" Height="300" Margin="0 0 5 0"/>
+                <TextBox Grid.Column="1" Height="300" x:Name="txtsentMessagedisplay"/>
+            </Grid>
+            <!--#endregion-->
+            
+            <!--#region send button and message textbox -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" x:Name="txtMessage" Height="30" FontSize="15"  VerticalAlignment="Center"/>
+                <Button Grid.Column="1" x:Name="sendButton"  Content="Send" HorizontalAlignment="Right" Width="80" Height="30" Click="SendButton_Click"/>
+            </Grid>
+            <!--#endregion-->
+        </StackPanel>
+    </Border>
 </Window>

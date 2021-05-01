@@ -23,6 +23,11 @@ namespace ChattingUI
         public MainWindow()
         {
             InitializeComponent();
+<<<<<<< Updated upstream
+=======
+            duplexChannelFactory = new DuplexChannelFactory<IChattingService>(new UserCallback(), "ChatServiceEndPoint");
+            Server = duplexChannelFactory.CreateChannel();
+>>>>>>> Stashed changes
         }
     }
 }
