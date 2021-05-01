@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyChattingAppClient", "MyChattingAppClient\MyChattingAppClient.csproj", "{2B118323-DA57-4B3A-B073-9CD1AF96A78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChattingServer", "ChattingServer\ChattingServer.csproj", "{2F965D18-9A48-4316-AE99-41E4109A49D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChattingInterfaces", "ChattingInterfaces\ChattingInterfaces.csproj", "{8693F217-459E-4E4B-88E0-D850846EBC7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B118323-DA57-4B3A-B073-9CD1AF96A78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B118323-DA57-4B3A-B073-9CD1AF96A78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B118323-DA57-4B3A-B073-9CD1AF96A78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B118323-DA57-4B3A-B073-9CD1AF96A78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F965D18-9A48-4316-AE99-41E4109A49D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F965D18-9A48-4316-AE99-41E4109A49D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F965D18-9A48-4316-AE99-41E4109A49D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F965D18-9A48-4316-AE99-41E4109A49D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8693F217-459E-4E4B-88E0-D850846EBC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8693F217-459E-4E4B-88E0-D850846EBC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8693F217-459E-4E4B-88E0-D850846EBC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8693F217-459E-4E4B-88E0-D850846EBC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7201B6F9-18ED-4EB8-A955-4BB13F82D518}
+	EndGlobalSection
+EndGlobal
