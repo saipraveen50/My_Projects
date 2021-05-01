@@ -12,6 +12,7 @@ namespace ChattingServer
         public static ChattingService service;
         static void Main(string[] args)
         {
+            service = new ChattingService();
             using (ServiceHost host = new ServiceHost(service))
             {
                 host.Open();
